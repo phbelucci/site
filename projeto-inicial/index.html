@@ -1,0 +1,337 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="imagens/CONFFIANCE_arvore.png">
+
+    <title>Conffiance</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparent" >
+
+      <div class="container">
+
+        <!-- Haeder -->
+        <div class="navbar-header">
+
+          <!-- botão toggle -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+            <span class="sr-only">alternar navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            
+
+          </button>
+
+          <a href="index.html" class="navbar-brand">
+            
+            <span class="img-logo"></span>
+          </a>
+        </div> <!-- container -->
+
+      <!-- navbar -->
+      <div class="colapse navbar-collapse" id="barra-navegacao">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#atendimento">Atendimento</a></li>
+          <li><a href="">Chat</a></li>
+          
+
+        </ul>
+
+      </div>
+      </div> <!-- nav -->
+      </nav>
+
+      <div class="capa">
+        <div class="texto-capa ">
+          
+            <h1>Bem vindo à Conffiance</h1>
+
+            <h3>Seu Parceiro VIVO EMPRESAS Autorizado<br></br></h3>
+            <br></br>
+
+            <button type="button" class="btn btn-roxo btn-lg jumbotron" data-toggle="modal" data-target="#janela-proposta">
+
+                  QUERO UMA PROPOSTA
+
+            </button>
+
+            <a id="btn_plano" href="#planos" class="btn btn-custom btn-lg" style="padding-top: 20px">QUERO CONHECER OS PLANOS</a>
+
+            <!-- MODAL -->
+            <form class="modal" tabindex="-1" role="dialog" id="janela-proposta" style="margin-top: 50px;">
+              
+              <dir class="modal-dialog modal-dialog modal-lg" role="document">
+                
+                <div class="modal-content">
+                  
+                  <!--cabecalho-->
+                  <div class="modal-header" align="left">
+                    <button type="button" class="close" data-dismiss="modal">
+                      
+                      <span>&times;</span>
+
+                    </button>
+                    <h3 class="modal-title">Precisamos de algumas informações...</h3>
+                    
+
+                  </div>
+
+                  <!--corpo-->
+                  <div class="modal-body" align="left">
+                    
+                    <div class="col-md-3" ">NOME DA EMPRESA</div>
+                    <div class="input-group col-md-9">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+                      </div>
+                      <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Digite o nome da Empresa">
+                    </div>
+                    <br></br>
+
+                    <div class="col-md-3" ">CNPJ</div>
+                    <div class="input-group col-md-9">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+                      </div>
+                      <input type="number" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Digite o CNPJ">
+                    </div>
+                    <br></br>
+
+                    <div class="col-md-3" ">E-MAIL</div>
+                    <div class="input-group col-md-9">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+                      </div>
+                      <input type="e-mail" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Digite o e-mail">
+                    </div>
+                    <br></br>
+
+                    <div class="col-md-3"">TELEFONE</div>
+                    <div class="input-group col-md-9">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+                      </div>
+                      <input type="tel" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Digite o Telefone">
+                    </div>
+                    <br></br>
+
+                    <div class="col-md-3" >LINHAS</div>
+                    <div class="input-group col-md-9">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+                      </div>
+                      <input class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Digite a quantidade de linhas que precisa">
+                    </div>
+                    <br></br>
+
+                    <div class="col-md-12" style="margin-top: 10px; padding-left: 0px; padding-right: 0px;">
+                          <div class="col-md-4" >
+                            INTERNET POR LINHA
+                          </div>
+                          <div class="form-check col-md-1">
+                            <div >
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1GB
+                            </div>
+                          </div>
+                          <div class="form-check col-md-1">
+                            <div >
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2GB
+                            </div>
+                          </div>
+                          <div class="form-check col-md-1">
+                            <div >
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" > 3GB
+                            </div>
+                          </div>
+                          <div class="form-check col-md-1">
+                            <div >
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option4" > 5GB
+                            </div>
+                          </div>
+                          <div class="form-check col-md-1">
+                            <div >
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio10" value="option5" > 10GB
+                            </div>
+                          </div>
+                         
+                    </div><br></br><br></br>
+
+                    <div style="padding-left: 15px; font-size: 20px;">Atenção! Não é necessário informar a quantidade de minutos!<br></br>Os Plano atuais possuem minutos ilimitados para celular ou fixo! Qualquer Operadora!</div><br></br>
+
+                    <script type="text/javascript">
+                      document.janela-proposta.reset();
+                    </script>
+                    
+
+                  </div>
+                  <!--rodape-->
+                  <div class="modal-footer">
+                    
+                    <button class="btn btn-danger" class="close" data-dismiss="modal">Cancelar</button>
+                    <button data-dismiss="modal" onclick="alert('Dados enviados com sucesso!\nEm breve entraremos em contato!')"; type="submit" class="btn btn-success">Enviar</button>    
+
+
+                  </div>
+
+
+
+
+                </div>
+
+              </div>
+
+            </form>
+
+
+            
+
+
+        </div>
+      </div>
+
+      <!-- Conteudos -->
+
+      <section id="planos">
+        <div class="container">
+          <div class="row" >
+            
+            <!-- Albuns -->
+            <div class="col-md-12">
+
+              <div class="row albuns">
+
+                <div class="col-md-12" >
+                  <img src="imagens/planos.jpg" class="img-responsive">
+                </div>
+
+
+              </div> <!-- Fim da row -->
+
+            </div>
+
+          </div>
+        </div>
+
+      </section> <!-- Encerra primeira seção -->
+
+      <!-- Sessão 2 -->
+      <section id="aparelhos">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-4">
+
+                <h2>Smartphones</h2>
+                <h3>Ultimos Lançamentos</h3>
+                <p>Aparelhos que proporcionam multiconexão com Qualidade e Velocidade 4G.</p>
+
+                <h3>Smartphones para Diferentes Perfis de Equipe</h3>
+                <p>Veja os novos lançamentos e o que se encaixa melhor para sua empresa.</p>
+
+                <h3>Parcelamento</h3>
+                <p>Valor de aparelhos parcelado diretamente na fatura.</p>
+
+            </div>
+            <div class="container">
+                <div class="col-md-4 rotacionar">
+
+                  <img src="imagens/iphonex.png" >
+   
+                </div>
+                <div class="col-md-4 rotacionar">
+
+                  <img src="imagens/s9.png" >
+   
+                </div>
+            </div>
+          
+        </div>
+      </div>
+
+      </section>
+
+      <section id="atendimento"> <!-- Atendimento -->
+        <div >
+          <h2 align="center">Entre em contato com a gente!</h2>
+          <img src="imagens/atendimento.jpg" width="80%" align="center">
+          <h3 align="center">Também estamos à disposição através do e-mail: contato@conffiance.com.br</h3>
+        </div>
+      </section>
+
+
+
+
+
+      <footer id="rodape"> 
+        
+          <div class="container">
+            
+            <div class="row">
+
+              <div class="col-md-2">
+                <span class="img-logo"></span>
+              </div>
+
+              
+
+              
+
+              
+
+              <div class="col-md-3 ">
+
+                <li class="item-redesocial"><img src="imagens/facebook.png"></li>
+
+              </div>
+              <div class="col-md-3 ">
+
+                <li class="item-redesocial"><img src="imagens/twitter.png"></li>
+
+              </div>
+              <div class="col-md-3 ">
+
+                <li class="item-redesocial"><img src="imagens/instagram.png"></li>
+
+              </div>
+              
+
+
+            </div> <!-- row -->
+          </div>
+
+      </footer> 
+
+
+      
+      
+
+
+
+
+    
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
